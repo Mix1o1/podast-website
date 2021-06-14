@@ -1,0 +1,104 @@
+#top {
+  font: 1em sans-serif;
+  font-size: large;
+  background: url(top2.png);
+  padding: 20px;
+
+  padding-left: 13cm;
+  padding-top: 2cm;
+  animation-name: co;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #28282b;
+}
+
+p {
+  font: 1em sans-serif;
+  margin-left: 12cm;
+  margin-top: 3cm;
+  color: white;
+}
+
+.pod {
+  border: 2px red solid;
+  width: 200px;
+  animation: co2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.pod1 {
+  border: 2px red solid;
+  width: 200px;
+  animation: co2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.pod2 {
+  border: 2px red solid;
+  width: 200px;
+  animation: co2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.pod3 {
+  border: 2px red solid;
+  width: 200px;
+
+  animation: co2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.pod4 {
+  border: 2px red solid;
+  width: 200px;
+  animation: co2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#row {
+  height: 10cm;
+  justify-content: space-evenly;
+  display: flex;
+  color: white;
+  
+}
+@keyframes co {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #28282b;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes co2 {
+  0% {
+    border: white solid;
+  }
+  50% {
+    border: red dotted;
+  }
+  100% {
+    border: white solid;
+  }
+}
+
+#content{
+  padding-top: 9cm;
+}
+#row2{
+  height: 10cm;
+  justify-content: space-evenly;
+  display: flex;
+  color: white;
+  padding-top: 40px;
+}
